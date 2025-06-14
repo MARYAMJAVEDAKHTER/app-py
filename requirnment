@@ -1,0 +1,35 @@
+python -m venv myenv //this is use to create virtual env
+myenv\Scripts\activate //this is use to activate env
+pip install flask face_recognition opencv-python // install these packages in your venv
+
+python -m pip install --upgrade pip
+dlib-19.24.99-cp312-cp312-win_amd64.whl
+
+python -m pip install dlib-19.24.99-cp312-cp312-win_amd64.whl
+
+pip install face_recognition
+
+python app.py
+
+pip install git+https://github.com/ageitgey/face_recognition_models
+
+pip show face_recognition_models
+
+pip install setuptools
+
+python -c "import face_recognition_models; print(face_recognition_models.__file__)"
+
+
+python -m venv myenv
+myenv\Scripts\activate
+
+
+pip install --upgrade pip
+pip install cmake
+pip install dlib
+pip install face_recognition
+pip install opencv-python
+pip install flask
+
+cmake --version
+
